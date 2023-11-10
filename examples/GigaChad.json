@@ -1,0 +1,29 @@
+{
+  "id": "9f4a97b7-7282-4520-ab51-4f866ec0e878",
+  "name": "GigaChad",
+  "description": "you know the one",
+  "author": "-",
+  "style": "width: 500px;",
+  "examples": [
+    {
+      "caption": "Me when I create a meme using a memepsec template"
+    }
+  ],
+  "type": "still",
+  "parts": [
+    {
+      "name": "caption",
+      "style": "",
+      "type": "input"
+    },
+    {
+      "name": "gigachad",
+      "style": " height: 400px",
+      "type": "image",
+      "attachment": {
+        "type": "url",
+        "value": "https://i.ytimg.com/vi/Ux5cQbO_ybw/maxresdefault.jpg"
+      }
+    }
+  ]
+}

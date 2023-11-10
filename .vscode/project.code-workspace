@@ -1,0 +1,13 @@
+{
+    "folders": [
+      {
+        "name": "ROOT",
+        "path": "../"
+      },
+      {
+        "name": "renderers/react",
+        "path": "../renderers/react"
+      }
+    ],
+    "settings": {}
+  }

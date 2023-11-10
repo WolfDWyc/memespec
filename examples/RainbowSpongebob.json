@@ -1,0 +1,42 @@
+{
+    "id": "f1c7e0fe-6ffe-fbac-0f6b-6be4f87c4e3f",
+    "name": "Rainbow Spongebob",
+    "description": "you know the one",
+    "author": "-",
+    "style": "width: 420px;",
+    
+    "examples": [
+      {
+        "topText": "nobody cares"
+      },
+      {
+        "topText": "team work",
+        "bottomText": "makes the dream work"
+      }
+    ],
+    "type": "still",
+    "parts": [
+      {
+        "name": "topText",
+        "placeholder": "some sarcastic message",
+        "style": "position: absolute; text-transform: uppercase; font-size: 30px; font-family: impact; text-align: center; color: white; text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 0px 2px 0 #000, 2px 0px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 2px 5px #000",
+        "type": "input"
+      },
+      {
+        "name": "rainbow spongebob image",
+        "style": "height: 300px;",
+        "type": "image",
+        "attachment": {
+          "type": "url",
+          "value": "https://a.pinatafarm.com/620x465/97b297acf9/spongebob-rainbow.jpg"
+        }
+      },
+      {
+        "name": "bottomText",
+        "style": "position: absolute; bottom: 0px; font-size: 30px; text-transform: uppercase; font-family: impact; text-align: center; color: white; text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 0px 2px 0 #000, 2px 0px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 2px 5px #000",
+        "type": "input",
+        "optional": true
+      }
+    ]
+  }
+  

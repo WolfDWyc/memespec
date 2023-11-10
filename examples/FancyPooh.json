@@ -1,0 +1,88 @@
+{
+    "id": "b2c93e41-ecde-4a81-80c3-cbdd546710c9",
+    "name": "Fancy Winnie the Pooh",
+    "description": "you know the one",
+    "author": "-",
+    "style": "",
+    "examples": [
+      {
+        "Regular Pooh Caption": "What",
+        "Fancy Pooh Caption": "Excuse Me?",
+        "Extra Fancy Pooh Caption": "I beg your pardon?"
+      },
+      {
+        "Regular Pooh Caption": "Get out of my way",
+        "Fancy Pooh Caption": "Make yourself scarce",
+        "Extra Fancy Pooh Caption": "Remove thyself from my field of movement"
+      }
+    ],
+    "type": "still",
+    "parts": [
+      {
+        "name": "Regular Pooh",
+        "style": "flex-direction: row;",
+        "parts": [
+          {
+            "name": "Regular Pooh Image",
+            "style": "width: 210px;",
+            "type": "image",
+            "attachment": {
+              "type": "url",
+              "value": "https://i.imgur.com/LibhDVP.png"
+            }
+          },
+          {
+            "name": "Regular Pooh Caption",
+            "placeholder": "Something dumb",
+            "style": "margin-left: 10px; width: 210px;",
+            "type": "input"
+          }
+        ],
+        "type": "stillGroup"
+      },
+          {
+        "name": "Fancy Pooh",
+        "style": "flex-direction: row;",
+        "parts": [
+          {
+            "name": "Fancy Pooh Image",
+            "style": "width: 210px;",
+            "type": "image",
+            "attachment": {
+              "type": "url",
+              "value": "https://i.imgur.com/M0xbbXe.png"
+            }
+          },
+          {
+            "name": "Fancy Pooh Caption",
+            "placeholder": "Something smart",
+            "style": "margin-left: 10px; width: 210px;",
+            "type": "input"
+          }
+        ],
+        "type": "stillGroup"
+      },
+      {
+        "name": "Extra Fancy Pooh",
+        "style": "flex-direction: row;",
+        "parts": [
+          {
+            "name": "Extra Fancy Pooh Image",
+            "style": "width: 210px;",
+            "type": "image",
+            "attachment": {
+              "type": "url",
+              "value": "https://i.imgur.com/B09nAvT.png"
+            }
+          },
+          {
+            "name": "Extra Fancy Pooh Caption",
+            "placeholder": "Something genius",
+            "style": "margin-left: 10px; width: 210px;",
+            "type": "input"
+          }
+        ],
+        "type": "stillGroup"
+      }
+    ]
+  }
